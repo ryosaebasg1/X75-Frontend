@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const BtnLogin = document.querySelector("#btnLogin");
   const InputLogin = document.querySelector("#inputLogin");
   const InputPassword = document.querySelector("#inputPassword");
+  const InputPassword3 = document.querySelector("#inputPassword");
 
   BtnLogin.addEventListener("click", () => {
     //Supprime les classe error et success de mes deux span
