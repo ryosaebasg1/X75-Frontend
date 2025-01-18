@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="css/register.css" />
   </head>
   <body>
-    <form id="register">
+    <form id="register" method="POST" action="register.php">
       <label for="userName">User Name</label>
-      <input type="text" value="Francois" name="" id="userName" />
+      <input type="text" value="Francois" name="userName" id="userName" />
       <label for="userEmail">User Email</label>
       <input type="text" value="francois@abcinfo.be" name="" id="userEmail" />
       <label for="userpassword">User Password</label>
@@ -22,6 +22,13 @@
       >
       <button type="submit" id="btnRegister">Register</button>
     </form>
+    <div>
+      <pre class="xdebug-var-dump" dir="ltr">
+            <small>C:\wamp64\www\X75-Frontend\register.php:3:</small>
+            <b>array</b> <i>(size=0)</i>
+              <i><font color='#888a85'>empty</font></i>
+            </pre>
+    </div>
   </body>
   <script src="js/register.js"></script>
 </html>
